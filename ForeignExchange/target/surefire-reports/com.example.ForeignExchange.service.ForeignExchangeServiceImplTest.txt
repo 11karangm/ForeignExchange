@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ForeignExchange.service.ForeignExchangeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.472 s <<< FAILURE! - in com.example.ForeignExchange.service.ForeignExchangeServiceImplTest
+testGetRates_Success  Time elapsed: 1.466 s  <<< ERROR!
+com.example.ForeignExchange.exception.ExternalException: Failed to fetch exchange rates. API might be down.
+	at com.example.ForeignExchange.service.ForeignExchangeServiceImplTest.testGetRates_Success(ForeignExchangeServiceImplTest.java:60)
+
